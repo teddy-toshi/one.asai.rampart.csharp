@@ -23,3 +23,7 @@ jobs:
         with:
           name: artifacts
           path: artifacts
+      - name: Publish to GitHub Packages
+        run: |
+          dotnet nuget add source "https://nuget.pkg.github.com/teddy-toshi/index.json" -n "github" -u "teddy-toshi" -p ${{secrets.GH_PACKAGES_PAT}} --store-password-in-clear-text
+          dotnet nuget push "*.nupkg" --api-key ${{secrets.GH_PACKAGES_PAT}} --source "github" --skip-duplicate
