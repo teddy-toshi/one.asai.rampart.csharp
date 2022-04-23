@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": ".NET",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/one.asai.cstemplate/bin/Debug/net6.0/win-x64/one.asai.cstemplate.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/one.asai.cstemplate",
+      "console": "internalConsole",
+      "stopAtEntry": false,
+      "logging": {
+        "moduleLoad": false
+      }
+    }
+  ]
+}
