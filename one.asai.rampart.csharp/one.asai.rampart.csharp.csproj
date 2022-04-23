@@ -5,6 +5,18 @@
     <RootNamespace>Rampart</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Rampart</AssemblyName>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    
+    <!-- NuGet -->
+    <PackageId>Rampart</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>asai.one</Authors>
+    <Company>asai.one</Company>
+    <PackageDescription>Determine how intervals relate to each other.</PackageDescription>
+    <RepositoryUrl>https://github.com/teddy-toshi/one.asai.rampart.csharp</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
