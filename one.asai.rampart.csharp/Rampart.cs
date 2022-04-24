@@ -19,8 +19,8 @@ public struct Interval<T> where T : IComparable<T>, IComparable
     /// <summary>
     /// Interval can be sorted on construction.
     /// </summary>
-    /// <param name="x">value 1</param>
-    /// <param name="y">value 2</param>
+    /// <param name="x">value x</param>
+    /// <param name="y">value y</param>
     public Interval(T x, T y) =>
         (Lesser, Greater) = x.CompareTo(y) <= 0 ? (x, y) : (y, x);
 

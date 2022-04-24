@@ -12,7 +12,7 @@
     <!-- NuGet -->
     <PackageId>Rampart</PackageId>
     <Version>1.0.1</Version>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <Authors>asai.one</Authors>
     <Company>asai.one</Company>
     <Copyright>(c)asai.one</Copyright>
