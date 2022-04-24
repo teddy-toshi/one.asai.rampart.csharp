@@ -8,15 +8,20 @@
     <OutputType>Library</OutputType>
     <AssemblyName>Rampart</AssemblyName>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
-    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     
     <!-- NuGet -->
     <PackageId>Rampart</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
+    <PackageVersion>1.0.0</PackageVersion>
     <Authors>asai.one</Authors>
     <Company>asai.one</Company>
+    <Copyright>(c)asai.one</Copyright>
     <PackageDescription>Determine how intervals relate to each other.</PackageDescription>
     <RepositoryUrl>https://github.com/teddy-toshi/one.asai.rampart.csharp</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/teddy-toshi/one.asai.rampart.csharp</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>math</PackageTags>
   </PropertyGroup>
 
 </Project>
